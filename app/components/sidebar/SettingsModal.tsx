@@ -120,7 +120,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                   <CldUploadButton
                     options={{ maxFiles: 1 }}
                     onUpload={handleUpload}
-                    uploadPreset="g1usl1sb"
+                    uploadPreset="next_cloudinary_app"
                   >
                     <Button
                       disabled={isLoading}
